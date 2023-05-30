@@ -1,10 +1,14 @@
 body {
+  background: #000;
   font-family: 'Titillium Web', sans-serif;
+  color: white;
 }
+
 
 .navbar-brand {
   font-size: 20px;
-  color: #000;
+  color:white;
+
   font-weight: bold;
 }
 
@@ -16,5 +20,17 @@ body {
 }
 
 footer {
-  background: url(../img/smartphones.png);
+ /* background: url(../img/smartphones.png);*/
+ color:black;
+}
+
+#image1{
+
+border-radius: 10px;
+transition: transform 0.3s;
+
+}
+
+#image1:hover {
+  transform:scale(1.1);
 }
