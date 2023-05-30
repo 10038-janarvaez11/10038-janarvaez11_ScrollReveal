@@ -1,5 +1,5 @@
 body {
-  background: #000;
+  background: linear-gradient(rgb(0, 0, 0, 5), rgb(0, 0, 0, 0.9));
   font-family: 'Titillium Web', sans-serif;
   color: white;
 }
@@ -20,8 +20,10 @@ body {
 }
 
 footer {
- /* background: url(../img/smartphones.png);*/
- color:black;
+  background: url(../img/imagen2.jpg);
+  background-size: cover;
+  background-position: center;
+ color:white;
 }
 
 #image1{
@@ -33,4 +35,41 @@ transition: transform 0.3s;
 
 #image1:hover {
   transform:scale(1.1);
+}
+
+#image2{
+
+border-radius: 50px;
+transition: transform 2.5s;
+
+
+}
+
+#image2:hover {
+  transform:rotate(360deg);
+  border-radius: 100px;
+}
+
+
+
+#image4 {
+  border-radius: 50px;
+  transition: transform 0.9s;
+  box-shadow: 0 12px 14px rgba(255, 125, 0, 3.0); /* Agrega una sombra inicialmente transparente */
+}
+
+#image4:hover {
+  transform: scale(0.4);
+  border-radius: 100px;
+  box-shadow: 0 12px 14px rgba(255, 125, 0, 3.8); /* Aplica la sombra cuando está en estado de hover */
+}
+
+
+
+
+
+.Btn-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
